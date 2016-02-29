@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Paymentwall</title>
+   <!-- Bootstrap -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/bootstrap-theme.css" rel="stylesheet">
+   <link href="css/style.css" type="text/css" rel="stylesheet">
+   <link href="css/media.css" type="text/css" rel="stylesheet">
+   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/pushy.min.js"></script>
+</head>
+<!--Begin-->
+      <!--Header-->
+<nav class="pushy pushy-left">
+   <ul class="pushy pushy-left">
+      <li><a href="#">Menu 1</a></li>
+      <li><a href="#">Menu 1</a></li>
+      <li><a href="#">Menu 1</a></li>
+   </ul>
+</nav>
+<div class="site-overlay"></div>
+<div id="container">
+   <header>
+         <div class="row header">
+            <div class="menu-btn">&#9776;</div>
+            <div class="col-lg-3 col-md-3 col-sm-3 row-col logo-block">
+               <div class="logo">
+                  <a href="#">Logo big image</a>
+               </div>
+            </div>
+               <div class="col-lg-3 col-md-3 col-sm-3 row-col menu-block">
+                  <div class="menu">
+                     <ul class="pushy-menu">
+                        <li><a href="#">Menu 1</a></li>
+                        <li><a href="#">Menu 1</a></li>
+                        <li><a href="#">Menu 1</a></li>
+                     </ul>
+                  </div>
+               </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 row-col empty-block">
+               <div class="empty"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 row-col help_button-block">
+               <div class="help-button">
+                  <input type="button" value="Help button">
+               </div>
+            </div>
+         </div>
+   </header>
+   <!--Section-->
+   <section>
+      <div class="row section">
+         <div class="col-lg-3 col-md-3 col-sm-3 row-col row-col1">
+            <div class="block1">Block 1</div>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-6 row-col row-col2">
+            <div class="block2">Block 2
+               <div class="block2-2" onclick="myFunction()">
+                  <a href="#"><img src="images/icon.png"><p>Here goes very long text that shouldn't stretch this block nor by width nor by height. It should be cut by three periods like this...Here goes very long text that shouldn't stretch this block nor by width nor by height. It should be cut by three periods like this...Here goes very long text that shouldn't stretch this block nor by width nor by height. It should be cut by three periods like this...</p> </a>
+               </div>
+               <div class="block2-2" onclick="myFunction()">
+                  <a href="#"><img src="images/icon.png"><p>...</p> </a>
+               </div>
+               <div class="block2-2" onclick="myFunction()">
+                  <a href="#"><img src="images/icon.png"><p>...</p> </a>
+               </div>
+               <div class="block2-2" onclick="myFunction()">
+                  <a href="#"><img src="images/icon.png"><p>...</p> </a>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-3 row-col row-col3">
+            <div class="block3">Block 3</div>
+         </div>
+      </div>
+   </section>
+</div>
+<script>
+   function myFunction() {
+      document.getElementsByClassName("block2-2")[0].setAttribute("class", "name");
+   }
+</script>
+</body>
+</html>
